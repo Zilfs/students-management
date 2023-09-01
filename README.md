@@ -14,6 +14,11 @@ How to configure the data base:
 
    Now, the database should be ready to use 😁
 
+   And Finally, you can run the app by running this in your terminal
+   ```
+   php spark serve
+   ```
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
