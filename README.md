@@ -1,3 +1,19 @@
+How to configure the data base:
+1. First create the data base by running this command in your terminal
+   ```
+   php spark db:create students-management
+   ```
+2. Then migrate the data
+   ```
+   php spark migrate
+   ```
+3. Last, we add data users to table users for login purposes using the seeder, by running this command
+   ```
+   php spark db:seed UsersSeeder
+   ```
+
+   Now, the database should be ready to use 😁
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
